@@ -1,7 +1,6 @@
-import Link from "next/link";
-import Navbar from "./navbar";
+import Navbar from "../navbar";
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <Navbar />
@@ -9,7 +8,7 @@ const Home = () => {
       <div className="">
         <div className="container mx-auto flex items-center py-20">
           <div className="mx-auto">
-            <h1 className="font-bold text-5xl">Hello🚀😊</h1>
+            <h1 className="font-bold text-5xl">About Page🤣</h1>
           </div>
         </div>
       </div>
@@ -17,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
